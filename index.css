@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.clear{
+    clear: both;
+  }
+.menu{
+    width: 80%;
+    margin: 10px auto;   
+}
+.menu .logo {
+  font-size: 36px;
+  text-decoration: none;
+}
+
+.logo i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background-color: rgb(22, 26, 101);
+    vertical-align: bottom;
+    color: rgb(237, 205, 61);
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+  }
+.logo span{
+    font-size: 20px;
+}
+.header ul {
+    margin-top: 10px;
+  }
+.header .menu li{
+    display: inline;
+    margin-right: 10px;
+}
+.header .menu li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.header .menu li a:hover{
+    background-color: rgb(216, 221, 226);
+    border-radius: 15px;
+}
+.banner{
+    background-image: url(./images/2.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+.item{
+    width: 100%;
+    padding-top: 25px;
+}
+.item__container{
+    width: 80%;
+    margin: 0 auto;
+}
+.item__banner,
+.item__desc{
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.item__desc button{
+    background-color: rgb(255, 217, 0);
+    padding: 15px 35px;
+    border-radius: 15px;
+    border: none;
+    
+}
+.item__desc button:hover{
+    border: 1px solid orange;
+}
+.item__banner img{
+    background-size: cover;
+    width: 100%;
+   
+}
+
+/* start title */
+.title{
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(214, 213, 213, 0.418);
+
+}
+.title__container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+
+}
+.title__item{
+    width: 25%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.title__item  h3{
+    font-size: 45px;
+    padding-right: 10px;
+}
+
+/* start activities */
+.activities{
+    width: 100%;
+    padding: 100px 0;
+}
+.activities__contact{
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+.activities__list{
+    display: flex;
+    margin: 10px;
+}
+.activities__item{
+    width: 25%;
+    height: 20vh;
+    background-color: rgb(10 30 57);
+    border: none;
+    margin: 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+.activities__icont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.activities__item p{
+    color: white;
+    text-transform: capitalize;
+    padding-top: 10px;
+    
+}
+.services{
+    background-color: rgba(214, 213, 213, 0.418)  ;
+    width: 100%;
+    height: 130vh;
+    padding: 50px 0;
+}
+.services .services__container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
+.services .services__contact{
+    float: left;
+    width: 50%;
+    height: 90vh;
+    padding: 10px;
+    
+}
+.services__contact h2{
+    padding-bottom: 50px;
+}
+.services__item{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(228, 219, 219);
+    
+}
+.services__img{
+    width: 40%;
+    height: 20vh;
+    
+}
+.services__img img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.services__desc{
+    width: 60%;
+}
+.services__desc h3{
+    padding-bottom: 5px;
+}
+.services__desc span{
+    color: rgb(142, 140, 140);
+}
+.services__desc p{
+    padding-top: 10px;
+    line-height: 22px;
+    color: rgb(142, 140, 140);
+}
+
+.services__contact .btn{
+    text-align: right;
+    width: 100%;
+    padding: 10px 0;
+}
+.services__contact .btn button{
+    background-color: rgb(201, 153, 10);
+    padding: 15px;
+    width: 25%;
+    border: none;
+    border-radius: 10px;
+}
+.services__contact .btn button:hover{
+    background-color: orange
+}
+/* start  upcoming*/
+
+.services  .services__upcoming{
+    float: left;
+    width: 50%;
+    height: 90vh;
+    padding: 10px;
+}
+
+.services__upcoming h2{
+    padding-bottom: 50px;
+}
+.card {
+    width:100%;
+    height: 32vh;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    
+}
+.contact__card{
+    width: 20%;
+    text-align: center;
+    height: 20vh;
+}
+.card__top {
+    width: 100%;
+    height: 15vh;   
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+.card__bottom {
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+}
+.contact__desc{
+    width: 80%;
+    padding: 0 15px;
+}
+.contact__desc h3{
+    padding-bottom: 10px;
+}
+.contact__desc p{
+    font-size: 15px;
+    color: gray;
+}
+.contact__desc .btn {
+    text-align: right;
+    width: 100%;
+    padding: 10px 0;
+}
+.contact__desc .time__add{
+    width: 100%;
+    height: 10vh;
+    padding-top: 10px;
+    
+}
+.contact__desc .time__add p{
+    color: rgb(16, 16, 61);
+    display: inline-block;
+    padding-right: 20px; 
+}
+.services__upcoming .btn{
+    width: 100%;
+    text-align: right;
+}
+.services__upcoming .btn button{
+    background-color: rgb(201, 153, 10);
+    padding: 15px;
+    width: 25%;
+    border: none;
+    border-radius: 10px;
+}
+.services__upcoming .btn button:hover{
+    background-color: orange;
+}
+
+/* start footer */
+.footer{
+    width: 100%;
+    height: 65vh;
+    padding: 55px 0;
+    background-color: rgb(10 30 57);
+    color: #fff;
+}
+.footer .footer__container{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+
+}
+.footer .footer___list{
+    width: 100%;
+    height: 45vh;
+    border-bottom: 1px solid gray;
+}
+.footer .footer___list .box{
+    float: left;
+    width: calc(100% /3);
+    padding: 25px;
+}
+.footer___list .box h3{
+    padding-bottom: 20px;
+}
+.footer___list .box p{
+    padding-bottom: 15px;
+}
+.footer .box i{
+    padding: 5px;
+    color: rgb(222, 187, 48);
+}
+.footer__container .footer__by{
+    padding: 15px 0 ;
+    font-size: 10px;
+}
+
